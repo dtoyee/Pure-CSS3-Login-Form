@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #313136;
+}
+
+/* Form holder */
+.form {
+    width: 300px;
+    min-height: 250px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Form title */
+.title {
+    width: 100%;
+    min-height: 50px;
+    border-bottom: thin solid #ccc;
+    line-height: 50px;
+    background-color: #6495ED;
+}
+
+.title > span {
+    margin-left: 10px;
+    font-size: 1.6em;
+    float: left;
+    color: #fff;
+}
+
+/* Text and password inputs */
+input[type="text"], input[type="password"] {
+    width: 85%;
+    padding: 10px;
+    margin-top: 10px;
+    border: thin solid #ccc;
+    border-radius: 2px;
+}
+
+/* Login button */
+.login {
+    width: 92%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #6495ED;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+}
+
+.login:hover {
+    background-color: #7FA9F5;   
+}
+
+/* Forgot password link */
+a {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #313136;
+    font-size: small;
+}
